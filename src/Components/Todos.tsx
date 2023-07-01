@@ -1,6 +1,5 @@
 "use client"
 import { useTodos } from '@/store/Todos'
-import { filter } from '@chakra-ui/react'
 import { useSearchParams } from 'next/navigation'
 import React from 'react'
 const Todos = () => {
